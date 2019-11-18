@@ -1,0 +1,35 @@
+{
+  "name": "tokyo-airticket-management-ui",
+  "version": "1.0.0",
+  "description": "My wonderful Nuxt.js project",
+  "author": "SEEC",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "./bin/deploy.sh",
+    "test": "ava"
+  },
+  "dependencies": {
+    "aws-amplify": "^1.2.2",
+    "aws-amplify-vue": "^0.3.2",
+    "nuxt": "^2.0.0",
+    "vee-validate": "^3.0.11",
+    "vuelidate": "^0.7.4"
+  },
+  "devDependencies": {
+    "@aws-amplify/cli": "^3.15.0",
+    "@nuxtjs/axios": "^5.6.0",
+    "@nuxtjs/vuetify": "^1.0.0",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "ava": "^2.2.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "browser-env": "^3.2.5",
+    "json-loader": "^0.5.7",
+    "require-extension-hooks": "^0.3.3",
+    "require-extension-hooks-babel": "^1.0.0",
+    "require-extension-hooks-vue": "^2.0.0"
+  }
+}
